@@ -1,0 +1,3 @@
+O que é um modelo?
+- Modelo é uma abstração de algo do mundo real.
+Normalmente, quando precisamos entender algo, desenhamos um modelo de alguma coisa.
