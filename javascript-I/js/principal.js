@@ -1,30 +1,30 @@
-var pacients = document.querySelectorAll(".patient");
+var pacientes = document.querySelectorAll(".paciente");
 
-for (var i = 0; i < pacients.length; i++) {
+for (var i = 0; i < pacientes.length; i++) {
 
-    var patient = pacients[i];
+    var paciente = pacientes[i];
 
-    var tdPeso = patient.querySelector(".info-peso");
+    var tdPeso = paciente.querySelector(".info-peso");
     var peso = tdPeso.textContent;
 
-    var tdAltura = patient.querySelector(".info-altura");
+    var tdAltura = paciente.querySelector(".info-altura");
     var altura = tdAltura.textContent;
 
-    var tdImc = patient.querySelector(".info-imc");
+    var tdImc = paciente.querySelector(".info-imc");
 
     var pesoIsValid = true;
     var alturaIsValid = true;
 
     if (peso <= 0 || peso >= 1000) {
-        console.log("Peso inválido!");
         pesoIsValid = false;
         tdImc.textContent = "Peso inválido";
+        paciente.classList.add("paciente-invalido");
     }
 
     if (altura <= 0 || altura >= 3.00) {
-        console.log("Altura inválida!");
         alturaIsValid = false;
         tdImc.textContent = "Altura inválida";
+        paciente.classList.add("paciente-invalido");
     }
 
   if (alturaIsValid && pesoIsValid) {
