@@ -1,6 +1,6 @@
 # Javascript training
 
-Modulos do alura: ([JavaScript I](https://github.com/HaysaRodrigues/javascript-training/tree/master/javascript-I))
+#### Modulos do alura: ([JavaScript I](https://github.com/HaysaRodrigues/javascript-training/tree/master/javascript-I))
 - Introdução :white_check_mark:
 - Variáveis e Operadores Arrays :white_check_mark:
 - Loop e Estilos :white_check_mark:
@@ -9,3 +9,6 @@ Modulos do alura: ([JavaScript I](https://github.com/HaysaRodrigues/javascript-t
 - Validação de Formulários 
 - Remoção, Delegação e Animação 
 - Filtrando uma tabela - Ajax Buscando pacientes com AJAX
+
+
+#### [JavaScript30](https://courses.wesbos.com/account/access/5d1cbbbd85f96c03c1e4c75a)
