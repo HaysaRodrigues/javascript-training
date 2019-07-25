@@ -12,3 +12,6 @@
 
 
 #### [JavaScript30](https://courses.wesbos.com/account/access/5d1cbbbd85f96c03c1e4c75a)
+
+0. Getting started :heavy_check_mark:
+1. JavaScript Drum Kit :heavy_check_mark:
