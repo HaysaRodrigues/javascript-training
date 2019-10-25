@@ -8,7 +8,7 @@ botaoAdicionar.addEventListener("click", function() {
 
     xhr.addEventListener("load", function() {
 
-        if (xhr.status == 200) {
+        if (xhr.status === 200) {
             erroAjax.classList.add("invisivel");
             var resposta = xhr.responseText;
             var pacientes = JSON.parse(resposta);

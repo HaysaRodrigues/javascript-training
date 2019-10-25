@@ -58,19 +58,19 @@ function validaPaciente(paciente) {
 
     var erros = [];
 
-    if (paciente.nome.length == 0) {
+    if (paciente.nome.length === 0) {
         erros.push("O nome não pode ser em branco");
     }
 
-    if (paciente.gordura.length == 0) {
+    if (paciente.gordura.length === 0) {
         erros.push("A gordura não pode ser em branco");
     }
 
-    if (paciente.peso.length == 0) {
+    if (paciente.peso.length === 0) {
         erros.push("O peso não pode ser em branco");
     }
 
-    if (paciente.altura.length == 0) {
+    if (paciente.altura.length === 0) {
         erros.push("A altura não pode ser em branco");
     }
 
