@@ -1,14 +1,14 @@
-var campoFiltro = document.querySelector("#filtrar-tabela"),
-    pacientes = document.querySelectorAll(".paciente");
+var campoFiltro = document.querySelector("#filtrar-tabela");
 
 campoFiltro.addEventListener("input", function() {
-    var tdNome = paciente.querySelector(".info-nome");
+    var pacientes = document.querySelectorAll(".paciente");
 
     if (this.value.length > 0) {
         for (var i = 0; i < pacientes.length; i++) {
             var paciente = pacientes[i],
+                tdNome = paciente.querySelector(".info-nome"),
                 nome = tdNome.textContent,
-                expressao = new RegExp(this.value, "i");
+                expressao = applyRegex(this.value);
 
             if (!expressao.test(nome)) {
                 paciente.classList.add("invisivel");
@@ -23,3 +23,9 @@ campoFiltro.addEventListener("input", function() {
         }
     }
 });
+
+function applyRegex(value) {
+  var expresion, caseSensitiveCheck = "i";
+  expresion = new RegExp(value, caseSensitiveCheck)
+  return expresion;
+}
