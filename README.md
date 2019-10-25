@@ -32,3 +32,4 @@
 - [classList & seus métodos](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 - [Todo array tem um método forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - [Expressão regular](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [Never use eval()!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
