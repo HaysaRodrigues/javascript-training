@@ -1,3 +1,5 @@
+const alturaLimite = 2.00;
+const pesoLimite = 1000;
 var titulo = document.querySelector(".titulo");
 titulo.textContent = "Aparecida Nutricionista";
 
@@ -41,19 +43,9 @@ function calculaImc(peso, altura) {
 }
 
 function validaPeso(peso) {
-
-    if (peso >= 0 && peso <= 1000) {
-        return true;
-    } else {
-        return false;
-    }
+  return peso = peso >= 0 && peso <= pesoLimite ? true : false;
 }
 
 function validaAltura(altura) {
-
-    if (altura >= 0 && altura <= 3.00) {
-        return true;
-    } else {
-        return false;
-    }
+  return altura = altura >= 0 && altura <= alturaLimite ? true : false;
 }
