@@ -32,3 +32,9 @@
 - [Todo array tem um método forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - [Expressão regular](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 - [Never use eval()!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
+
+#### Promises, Async/Await
+
+- [Async and await explained (+ handling errors)](https://tutorialzine.com/2017/07/javascript-async-await-explained)
+- [promises explained by implementers](https://promisesaplus.com/)
+- [Promise by mozila](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
